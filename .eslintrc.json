@@ -4,8 +4,10 @@
     "es2021": true
   },
   "extends": [
+    "airbnb",
     "plugin:react/recommended",
-    "airbnb"
+    "plugin:import/recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -19,10 +21,6 @@
     "react",
     "@typescript-eslint",
     "react-hooks"
-  ],
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/recommended"
   ],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true } ],
