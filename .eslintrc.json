@@ -26,11 +26,14 @@
     "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true } ],
     "import/extensions": [ "error", "ignorePackages", { "ts": "never", "tsx": "never" } ],
     "import/prefer-default-export": "off",
-    "max-len": ["warn", { "code": 120 }],
     "react/prop-types": "off",
     "react/jsx-filename-extension": [ "warn", {"extensions": [".tsx"]} ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/function-component-definition": "off",
+    "max-len": ["warn", { "code": 120 }],
+    "quotes": ["error", "double"]
   },
   "settings": {
     "import/resolver": {

@@ -1,7 +1,4 @@
-import './App.css';
+import { ReactElement } from "react";
+import "./App.css";
 
-export const App = () => {
-  return (
-    <div className="root" />
-  )
-};
+export const App = (): ReactElement => <div className="root" />;
